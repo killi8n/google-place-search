@@ -1,1 +1,1 @@
-export { autoComplete } from './lib'
+export * from './lib'
