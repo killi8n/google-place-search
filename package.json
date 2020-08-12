@@ -1,0 +1,51 @@
+{
+    "name": "google-place-search",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/killi8n/google-place-search.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/killi8n/google-place-search/issues"
+    },
+    "homepage": "https://github.com/killi8n/google-place-search#readme",
+    "description": "search module for google place API",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "keywords": [
+        "google",
+        "place"
+    ],
+    "author": "killi8n",
+    "devDependencies": {
+        "@types/jest": "^26.0.9",
+        "@types/node-fetch": "^2.5.7",
+        "tslint": "^6.1.3"
+    },
+    "dependencies": {
+        "jest": "^26.3.0",
+        "node-fetch": "^2.6.0",
+        "ts-jest": "^26.1.4",
+        "typescript": "^3.9.7"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.ts$": "ts-jest"
+        },
+        "testRegex": "\\.test\\.ts$",
+        "moduleFileExtensions": [
+            "ts",
+            "js"
+        ],
+        "globals": {
+            "ts-jest": {
+                "enableTsDiagnostics": true
+            }
+        },
+        "testEnvironment": "node"
+    }
+}
