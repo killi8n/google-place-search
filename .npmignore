@@ -4,3 +4,4 @@ node_modules
 src
 __test__
 src/lib/key.ts
+dist/__test__

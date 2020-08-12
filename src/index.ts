@@ -1,1 +1,1 @@
-export * as googlePlaceSearch from './lib'
+export { autoComplete } from './lib'

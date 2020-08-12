@@ -1,6 +1,6 @@
-import { autoComplete } from '../src/lib'
-import { key } from '../src/lib/key'
-import { Status } from '../src/types/Status'
+import { autoComplete } from '../'
+import { key } from '../lib/key'
+import { Status } from '../types/Status'
 
 describe('api key test', () => {
     test('is key existing', () => {

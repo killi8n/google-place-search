@@ -1,6 +1,6 @@
 {
     "name": "google-place-search",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/index.js",
     "repository": {
         "type": "git",
@@ -13,7 +13,7 @@
     "homepage": "https://github.com/killi8n/google-place-search#readme",
     "description": "search module for google place API",
     "scripts": {
-        "build": "tsc",
+        "build": "rm -rf ./dist && tsc",
         "test": "jest"
     },
     "keywords": [
