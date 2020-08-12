@@ -8,12 +8,12 @@ interface AutoCompletePayload extends WithKey {
     input: string
 }
 
-interface AutoCompleteResponse {
+export interface AutoCompleteResponse {
     predictions: Prediction[]
     status: Status
 }
 
-interface Prediction {
+export interface Prediction {
     description: string
     matched_substrings: MatchedSubstring[]
     place_id: string
@@ -23,18 +23,18 @@ interface Prediction {
     types: string
 }
 
-interface MatchedSubstring {
+export interface MatchedSubstring {
     length: number
     offset: number
 }
 
-interface StructuredFormatting {
+export interface StructuredFormatting {
     main_text: string
     main_text_matched_substrings: MatchedSubstring[]
     secondary_text: string
 }
 
-interface Term {
+export interface Term {
     offset: number
     value: string
 }
