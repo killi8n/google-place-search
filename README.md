@@ -13,3 +13,12 @@ and
 $ yarn (if you did not installed node_modules yet)
 $ yarn test
 ```
+
+### EXAMPLE
+
+1. node-server (typescript): see `src/examples/node-google-fetch-testing`
+
+```
+it is koa-based node-server.
+you can experience my module on node server.
+```
