@@ -6,4 +6,8 @@ export {
     MatchedSubstring,
     StructuredFormatting,
     Term,
+    PlaceDetailResponse,
+    PlaceDetailResult,
+    AddressComponent,
+    LatLng,
 } from './api'
