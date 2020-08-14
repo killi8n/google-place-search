@@ -66,5 +66,5 @@
         "skipLibCheck": true /* Skip type checking of declaration files. */,
         "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
     },
-    "exclude": ["./src/examples"]
+    "exclude": ["./src/examples", "./src/__test__"]
 }
