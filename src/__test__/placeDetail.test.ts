@@ -12,6 +12,7 @@ describe('api key test', () => {
             place_id: 'ChIJN1t_tDeuEmsRUsoyG83frY4',
             key,
         })
+
         expect(status).toBe(Status.OK)
         expect(result.icon).toBeTruthy()
         expect(result.name).toBeTruthy()
