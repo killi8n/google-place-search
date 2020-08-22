@@ -147,3 +147,24 @@ export const placeDetail = async ({
     })
     return await result.json()
 }
+
+export const placePhoto = async ({
+    maxWidth,
+    photoReference,
+    key,
+}: {
+    maxWidth: number
+    photoReference: string
+    key: string
+}) => {
+    const result = await fetch({
+        method: 'GET',
+        path: '/photo',
+        query: {
+            maxwidth: maxWidth,
+            photoreference: photoReference,
+            key,
+        },
+    })
+    return await result.blob()
+}
